@@ -1,0 +1,27 @@
+{
+  "name": "communityx-ui-e2e-tests-main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint-fix": "eslint . --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@playwright/test": "^1.46.1",
+    "@types/node": "^22.4.1",
+    "allure-playwright": "^3.0.0-beta.10",
+    "eslint": "^9.9.0",
+    "globals": "^15.9.0",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.2.0"
+  },
+  "dependencies": {
+    "moment-timezone": "^0.5.45",
+    "winston": "^3.14.2"
+  }
+}
